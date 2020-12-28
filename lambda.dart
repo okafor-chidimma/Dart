@@ -18,7 +18,25 @@ void main() {
     return number * 4;
   }
 
-  var test = (int number) {
+  Function test = (int number) {
     return number * 4;
   };
+
+  /*
+    there are basically 2 types of functions
+    1. Named function ==> which is a function that has a name and a return type
+    2. Anonymous Function ==> which is one with no name
+
+    At the very core, Both still have (){
+      //code to do something
+    }
+  
+    a function written like this
+
+    (){
+
+    }
+
+    is called a callback function
+   */
 }
